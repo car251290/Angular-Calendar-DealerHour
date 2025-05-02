@@ -1,0 +1,81 @@
+/* General background styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ee850d; /* Light blue-gray background */
+  color: #333; /* Text color */
+}
+
+/* Container styling */
+.container {
+  background-color: #16ccad; /* White background for containers */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+
+  /* Flexbox to center content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Label styling */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555; /* Slightly darker text for labels */
+  text-align: center; /* Center text inside the label */
+}
+
+/* Input and button styling */
+input, button {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #16d8a8; /* Blue button */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #8cdc14; /* Darker blue on hover */
+}
+
+/* Event list styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9; /* Light gray for event items */
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+li:nth-child(odd) {
+  background-color: #f1f1f1; /* Slightly darker gray for alternating items */
+}
+/* Center the title */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
